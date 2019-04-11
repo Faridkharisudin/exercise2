@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 2 KALKULATOR (Javascipt development course)</title>
+        <style>
+            h3 {
+                font-size: 12px;
+                font-style: oblique;
+            }
+        
+        </style>
+    </head>
+    <body style=" color: lightblue; background-color: darkslategray;">
+        <center><div>&nbsp;&nbsp; <b style="font-size: 30px">Kalkulator Sederhana</b></div></center>
+        <center><div>
+            <br>
+            <script>
+            var angka1;
+            var angka2;
+            </script>
+            <br>
+            klik tombol dibawah ini, dan masukan angka di kotak pemberitahuan
+            <br>
+            <br>   
+            <button onclick = "angka1= parseInt( prompt('masukan angka pertama : '));"> INPUT 1 </button><br>
+            <br>
+            <button onclick = "angka2= parseInt( prompt('masukan angka kedua : '));"> INPUT 2 </button><br>
+            <br>
+            <button onclick = "document.querySelector('h2').textContent =(angka1)+' + '+(angka2)+' = '+(angka1 + angka2);">Penjumlahan</button>
+            &nbsp;&nbsp;&nbsp;
+            <button onclick = "document.querySelector('h2').textContent =(angka1)+' - '+(angka2)+' = '+(angka1 - angka2);">Pengurangan</button>
+            &nbsp;&nbsp;&nbsp;    
+            <button onclick = "document.querySelector('h2').textContent =(angka1)+' x '+(angka2)+' = '+(angka1 * angka2);">Perkalian</button>
+            &nbsp;&nbsp;&nbsp;
+            <button onclick = "document.querySelector('h2').textContent =(angka1)+' : '+(angka2)+' = '+(angka1 / angka2);">Pembagian</button>
+            <h2></h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h3>By: Farid Kharisudin.<br>
+            Javascript Development Course 2019<br>
+            Batch 15</h3>
+        </div></center>
+    </body>
+</html>
